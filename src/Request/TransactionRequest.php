@@ -33,6 +33,7 @@ class TransactionRequest extends Base
         'chainingMode' => 'string',
         'signers' => 'array',
         'documents' => 'array',
+        'redirectWait' => 'int'
     ];
 
     public function addSigner(TransactionSigner $signer)
